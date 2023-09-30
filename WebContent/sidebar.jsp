@@ -1,0 +1,30 @@
+<div id="sidebar">
+	<div id="sidebar-header" class="d-flex flex-column align-items-center">
+		<img src="images/profile.png" class="mb-3 img-fluid rounded-circle"
+			id="profile-img">
+		<h1 class="mb-3">
+			Welcome,<br><c:out value="${InstructorUserName }"></c:out> <a class="text-white"
+				data-toggle="collapse" data-target="#sidebar-dropdown"> <i
+				class="ml-2 fas fa-caret-down"></i></a>
+		</h1>
+		<div id="sidebar-dropdown" class="collapse">
+			<a href="LogoutInstructor" class="d-block text-left lead text-white"><i
+				class="fas fa-sign-out-alt mb-1 mr-3"></i>Logout</a> <a href="EditProfileForm"
+				class="lead text-white"><i class="fas fa-user-edit mb-2 mr-3"></i>Edit
+				Profile</a>
+		</div>
+		<hr>
+	</div>
+	<div id="sidebar-menu">
+		<a href="ViewCourse" class="sidebar-menu-item"> <i
+			class="fas fa-2x fa-home"></i>
+			<p class="menu-item-label lead">Home</p>
+		</a> <a href="#courses" class="sidebar-menu-item"> <i
+			class="fas fa-2x fa-chalkboard-teacher"></i>
+			<p class="menu-item-label lead">Courses</p>
+		</a> <a href="#reviews" class="sidebar-menu-item"> <i
+			class="fas fa-2x fa-comment"></i>
+			<p class="lead menu-item-label">Reviews</p>
+		</a>
+	</div>
+</div>
