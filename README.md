@@ -3,7 +3,7 @@
 ## a course management platform
 the class diagram of the platfrom:
 
-<img alt="class diag" src="images/coursediag.png"  height="500" weight="600">
+<img alt="class diag" src="images/coursediag.png"  height="300" weight="400">
 
 ### Logo of the platform
 
